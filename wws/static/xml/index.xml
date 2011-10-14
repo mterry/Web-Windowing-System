@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<head>
+		<linkset>
+			<link>
+				<rel>stylesheet</rel>
+				<type>text/css</type>
+				<href>content.css</href>
+			</link>
+			<link>
+				<rel>stylesheet</rel>
+				<type>text/css</type>
+				<href>display.css</href>
+			</link>
+		</linkset>
+		<scriptset>
+			<script>
+				<type>text/javascript</type>
+				<src>jquery-1.6.2.js</src>
+			</script>
+			<script>
+				<type>text/javascript</type>
+				<src>utils.js</src>
+			</script>
+			<script>
+				<type>text/javascript</type>
+				<src>index.js</src>
+			</script>
+		</scriptset>
+	</head>
+	<body>
+		<windowframe>
+			<app-menu>
+			</app-menu>
+			<window-container>
+			</window-container>
+		</windowframe>
+	</body>
+</doc>

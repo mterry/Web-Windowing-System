@@ -1,0 +1,80 @@
+/*We remove all positioning information from the body so we can do whatever we will with the application display.*/
+html, body
+{
+	top:			0px;
+	left:			0px;
+	margin:		0px;
+	padding:	0px;
+	border:		0px;
+	height:		100%;
+}
+/*The windowframe div specifies the styling of the application platform's full windowframe. Typically, you want to remove all margin and padding of the frame itself.*/
+body
+#windowframe
+{
+	position:						absolute;
+	top:								0px;
+	left:								0px;
+	margin:							0px;
+	padding:						0px;
+	border:							0px;
+	width:							100%;
+	min-height:					100%;
+	clear:							both;
+	background-color:		#00FF00;
+}
+/*The app-menu div is where the application icons go.*/
+#app-menu
+{
+	position:						absolute;
+	margin:							0px;
+	width:							96px;
+	min-height:					100%;
+	float:							left;
+	clear:							left;
+	background-color:		#777777;
+}
+/*The windowcontainer div is where applications are rendered.*/ 
+#window-container
+{
+	position:						absolute;
+	margin:							0px;
+	left:								96px;
+	width:							928px;
+	min-height:					100%;
+	float:							left;
+	clear:							right;
+	background-color:		#FFFFFF;
+}
+.application
+{
+	position:						absolute;
+	margin:							0px;
+	padding:						0px;
+	width:							464px;
+	min-height:					336.5px;
+}
+#app0
+{
+	left:								0px;
+	top:								0px;
+	background-color:		#FF0000;
+}
+#app1
+{
+	left:								464px;
+	top:								0px;
+	background-color:		#00FF00;
+}
+#app2
+{
+	left:								0px;
+	top:								336.5px;
+	background-color:		#0000FF;
+}
+#app3
+{
+	left:								464px;
+	top:								336.5px;
+	background-color:		#FFFFFF;
+}

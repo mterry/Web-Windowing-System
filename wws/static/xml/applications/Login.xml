@@ -1,0 +1,14 @@
+<div id="login-window">
+	<script />
+	<form action="/" id="login">
+			<div class="formline">
+				<input type="text" name="screenname" /><span id="screenname"></span>
+			</div>
+			<div class="formline">
+				<input type="password" name="password" /><span id="password"></span>
+			</div>
+			<div class="formline">
+				<input type="submit" />
+			</div>
+	</form>
+</div>
